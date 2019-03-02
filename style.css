@@ -1,0 +1,103 @@
+/*
+Theme Name: Custom WP Theme
+Description: Semantic, SEO Optimised, Custom Wordpress Theme for XYZ
+Author: #
+Author URI: #
+Version: 11.0
+*/
+
+/* Reset */
+a, abbr, acronym, address, area, b, bdo, big, blockquote, body, button, caption, cite,
+code, col, colgroup, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4,
+h5, h6, hr, html, i, images, ins, kbd, label, legend, li, map, object, ol, p, param, pre,
+q, samp, small, span, strong, sub, sup, table, tbody, td, textarea, tfoot, th, thead,
+tr, tt, ul, var {margin:0;padding:0;vertical-align:baseline}
+
+/* Defaults */
+:focus {outline:0}
+a, a:visited {color:#069}
+a:hover {}
+abbr, acronym, dfn {border-bottom:1px dotted;cursor:help}
+blockquote {background:#EEE;border-left:2px solid #CCC;margin:0 0 1em}
+blockquote p {margin:.5em}
+body {background:#FFF;color:#000;font:75%/125% Calibri, Arial, Sans-Serif}
+code, pre {font-size:1em}
+del {text-decoration:line-through}
+dfn {font-style:italic;font-weight:bold}
+dt {font-weight:bold}
+dd {margin:0 0 1em 10px}
+fieldset {border:0}
+fieldset p {margin:0 0 5px}
+img {border:0;vertical-align:bottom}
+ins {text-decoration:none}
+h1 {border-bottom:1px solid #CCC;font:bold 1.75em/1.25em Georgia, Garamond, Serif;margin:10px 0 0 10px}
+h2 {font:bold 1.5em/1.25em Georgia, Garamond, Serif}
+h3 {font:bold 1.25em/1.25em Georgia, Garamond, Serif}
+h4 {font:bold 1em/1.25em Georgia, Garamond, Serif}
+hr {margin:0 0 0.5em}
+p {margin:0 0 1em}
+ul, ol {list-style:none;margin:0 0 1em}
+textarea {font:1em Arial;overflow:auto}
+tt {display:block;margin:0.5em 0;padding: 0.5em 1em}
+th {background:#EEE;border:solid #CCC;border-width:1px 0 0 1px;padding:3px}
+td {border:solid #CCC;border-width:1px 0 0 1px;padding:3px}
+table {border:solid #CCC;border-width:0 1px 1px 0}
+
+/* Containers */
+#page {margin:20px auto;width:750px}
+
+/* Header */
+#header {border-bottom:1px solid #CCC;overflow:hidden;width:100%}
+#header #logo {color:#09C;font:italic bold 2.25em/1.2em Georgia, Garamond, Serif}
+#header span {display:block;font-style:italic;margin:4px 0 0}
+#header ul {float:right;list-style:none;margin:-15px 0 0}
+#header ul li {float:left;margin:0 0 0 10px}
+#header ul li a {color:#333;float:left;font-weight:bold;padding:5px 10px}
+#header ul li a:hover, #header ul li.current_page_item a {background:#CCC}
+
+/* Content*/
+#content {float:left;overflow:hidden;padding:0 0 20px;width:550px}
+#content ul {list-style:disc;margin:0 0 1em 18px}
+#content ol {list-style:decimal;margin:0 0 1em 22px}
+
+/* Post */
+#content .post {border-bottom:1px solid #CCC;margin:0 0 25px}
+#content .post .meta {font-style:italic}
+#content .post h1 {border:0;margin:0}
+#content .sticky {background:#f5efca}
+
+/* Pagination */
+#content #prev-next {list-style:none}
+#content #prev-next #prev {float:left}
+#content #prev-next #next {float:right}
+
+/* Sidebar */
+#sidebar {float:right;padding:10px 0 20px;width:200px}
+#sidebar ul {list-style:none;margin:0 0 1em 18px}
+#sidebar ul ul {list-style:disc}
+
+/* Footer */
+#footer {border-top:1px solid #CCC;clear:both;height:1%;padding:5px 10px;overflow:hidden}
+#footer p {float:left}
+#footer ul {float:right;list-style:none}
+#footer ul li {display:inline;margin:0 0 0 20px}
+
+/* Image Alignment */
+img.aligncenter {display:block;margin-left:auto;margin-right:auto}
+img.alignright {display:inline;margin:0 0 2px 7px;padding:4px}
+img.alignleft {display:inline;margin:0 7px 2px 0;padding:4px}
+.alignright {float:right}
+.alignleft {float:left}
+
+/* 2.7+ Comments */
+#comments_wrap ol {list-style:none}
+#comments_wrap ol li {border-bottom:1px solid #CCC;margin:0 0 5px}
+#comments_wrap .commentmetadata {margin:0 0 10px}
+#comments_wrap .comment-author {border-bottom:1px solid #CCC;width:100%;overflow:hidden;padding:0 0 3px;line-height:32px;}
+#comments_wrap .comment-author img {float:left;margin:0 10px 0 0}
+#comments_wrap .comment-author cite {font-weight:bold}
+
+/* Captions */
+.wp-caption {background:#f3f3f3;border:1px solid #ddd;border-radius:3px;margin:10px;padding-top:4px;text-align:center}
+.wp-caption img {border:0 none;margin:0;padding:0}
+.wp-caption p.wp-caption-text {font-size:11px;line-height:17px;margin:0;padding:0 4px 5px}
